@@ -1,0 +1,22 @@
+.Logo {
+    background-color: aliceblue;
+    padding: 8px;
+    height: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+@media (min-width: 500px) {
+    .Logo {
+        background-color: #ffffff;
+    }
+}
+.Logo img {
+    height: 100%;
+}
+
+@media(max-width: 499px) {
+    .Logo img {
+        margin: auto;
+        display: flex;
+    }
+}

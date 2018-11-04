@@ -16,7 +16,7 @@ const bread = (props) => {
         }, []);
 
         if(transformedIngredients.length === 0) {
-            transformedIngredients = <h3>Buy bread, else comot for here; *!* gbe body e!</h3>
+            transformedIngredients = <h3>Buy bread, else comot here!</h3>
         }
         console.log(transformedIngredients);
 
